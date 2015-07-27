@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/middle_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="horizontal" >
+
+            <View
+                android:id="@+id/cymbal1_pad"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="25"
+                android:background="@drawable/single_drum" />
+
+            <View
+                android:id="@+id/tom1_pad"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="25"
+                android:background="@drawable/single_drum" />
+
+            <View
+                android:id="@+id/tom2_pad"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="25"
+                android:background="@drawable/single_drum" />
+
+            <View
+                android:id="@+id/cymbal2_pad"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="25"
+                android:background="@drawable/single_drum" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="horizontal" >
+
+            <View
+                android:id="@+id/bass_pad"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="25"
+                android:background="@drawable/single_drum" />
+
+            <View
+                android:id="@+id/snare_pad"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="25"
+                android:background="@drawable/single_drum" />
+
+            <View
+                android:id="@+id/hihat1_pad"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="25"
+                android:background="@drawable/single_drum" />
+
+            <View
+                android:id="@+id/hihat2_pad"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="25"
+                android:background="@drawable/single_drum" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
